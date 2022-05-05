@@ -46,7 +46,7 @@ jobs:
 
       - name: Docker meta
         id: meta
-        uses: docker/metadata-action@f2a13332ac1ce8c0a71aeac48a150dbb1838ab67
+        uses: docker/metadata-action@f206c36955d3cc6213c38fb3747d9ba4113e686a
         with:
           images: |
             continuumio/concourse-rsync-resource
